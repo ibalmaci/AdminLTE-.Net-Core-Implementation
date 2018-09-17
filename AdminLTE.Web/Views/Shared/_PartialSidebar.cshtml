@@ -1,0 +1,213 @@
+﻿<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel">
+            <div class="pull-left image">
+                <img src="~/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+                <p>Alexander Pierce</p>
+                <!-- Status -->
+                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+            </div>
+        </div>
+        <!-- search form (Optional) -->
+        <form action="#" method="get" class="sidebar-form">
+            <div class="input-group">
+                <input type="text" name="q" class="form-control" placeholder="Search...">
+                <span class="input-group-btn">
+                    <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </form>
+        <!-- /.search form -->
+        <!-- Sidebar Menu -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">MENÜ</li>
+            <!-- Optionally, you can add icons to the links -->
+            <li class="active treeview">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active"><a asp-controller="Home" asp-action="Index"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+                    <li><a asp-controller="Home" asp-action="Index2"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+                </ul>
+            </li>
+            <li>
+                <a asp-area="" asp-controller="Home" asp-action="About"><i class="fa fa-link"></i> <span>About</span></a>
+            </li>
+            <li>
+                <a asp-area="" asp-controller="Home" asp-action="Contact"><i class="fa fa-link"></i> <span>Contact</span></a>
+            </li>
+            @*
+        <li class="treeview">
+            <a href="#">
+                <i class="fa fa-files-o"></i>
+                <span>Layout Options</span>
+                <span class="pull-right-container">
+                    <span class="label label-primary pull-right">4</span>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li><a asp-controller="Layout" asp-action="TopNav"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
+                <li><a asp-controller="Layout" asp-action="Boxed"><i class="fa fa-circle-o"></i> Boxed</a></li>
+                <li><a asp-controller="Layout" asp-action="Fixed"><i class="fa fa-circle-o"></i> Fixed</a></li>
+                <li><a asp-controller="Layout" asp-action="CollapsedSidebar"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
+            </ul>
+        </li>
+            *@
+            <li>
+                <a asp-controller="UI" asp-action="widgets">
+                    <i class="fa fa-th"></i> <span>Widgets</span>
+                    <span class="pull-right-container">
+                        <small class="label pull-right bg-green">new</small>
+                    </span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-pie-chart"></i>
+                    <span>Charts</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a asp-controller="Charts" asp-action="ChartJS"><i class="fa fa-circle-o"></i> ChartJS</a></li>
+                    <li><a asp-controller="Charts" asp-action="Morris"><i class="fa fa-circle-o"></i> Morris</a></li>
+                    <li><a asp-controller="Charts" asp-action="Flot"><i class="fa fa-circle-o"></i> Flot</a></li>
+                    <li><a asp-controller="Charts" asp-action="Inline"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-laptop"></i>
+                    <span>UI Elements</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a asp-controller="UI" asp-action="General"><i class="fa fa-circle-o"></i> General</a></li>
+                    <li><a asp-controller="UI" asp-action="Icons"><i class="fa fa-circle-o"></i> Icons</a></li>
+                    <li><a asp-controller="UI" asp-action="Buttons"><i class="fa fa-circle-o"></i> Buttons</a></li>
+                    <li><a asp-controller="UI" asp-action="Sliders"><i class="fa fa-circle-o"></i> Sliders</a></li>
+                    <li><a asp-controller="UI" asp-action="Timeline"><i class="fa fa-circle-o"></i> Timeline</a></li>
+                    <li><a asp-controller="UI" asp-action="Modals"><i class="fa fa-circle-o"></i> Modals</a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-edit"></i> <span>Forms</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a asp-controller="Forms" asp-action="General"><i class="fa fa-circle-o"></i> General Elements</a></li>
+                    <li><a asp-controller="Forms" asp-action="Advanced"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
+                    <li><a asp-controller="Forms" asp-action="Editors"><i class="fa fa-circle-o"></i> Editors</a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-table"></i> <span>Tables</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a asp-controller="Tables" asp-action="Simple"><i class="fa fa-circle-o"></i> Simple tables</a></li>
+                    <li><a asp-controller="Tables" asp-action="Data"><i class="fa fa-circle-o"></i> Data tables</a></li>
+                </ul>
+            </li>
+            <li>
+                <a asp-controller="UI" asp-action="Calendar">
+                    <i class="fa fa-calendar"></i> <span>Calendar</span>
+                    <span class="pull-right-container">
+                        <small class="label pull-right bg-red">3</small>
+                        <small class="label pull-right bg-blue">17</small>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a asp-controller="Mailbox" asp-action="Mailbox">
+                    <i class="fa fa-envelope"></i> <span>Mailbox</span>
+                    <span class="pull-right-container">
+                        <small class="label pull-right bg-yellow">12</small>
+                        <small class="label pull-right bg-green">16</small>
+                        <small class="label pull-right bg-red">5</small>
+                    </span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-folder"></i> <span>Examples</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a asp-controller="Examples" asp-action="Invoice"><i class="fa fa-circle-o"></i> Invoice</a></li>
+                    <li><a asp-controller="Examples" asp-action="Profile"><i class="fa fa-circle-o"></i> Profile</a></li>
+                    <li><a asp-controller="Examples" asp-action="Login"><i class="fa fa-circle-o"></i> Login</a></li>
+                    <li><a asp-controller="Examples" asp-action="Register"><i class="fa fa-circle-o"></i> Register</a></li>
+                    <li><a asp-controller="Examples" asp-action="LockScreen"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
+                    <li><a asp-controller="Examples" asp-action="Page404"><i class="fa fa-circle-o"></i> 404 Error</a></li>
+                    <li><a asp-controller="Examples" asp-action="Page500"><i class="fa fa-circle-o"></i> 500 Error</a></li>
+                    <li><a asp-controller="Examples" asp-action="Blank"><i class="fa fa-circle-o"></i> Blank Page</a></li>
+                    <li><a asp-controller="Examples" asp-action="Pace"><i class="fa fa-circle-o"></i> Pace Page</a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-share"></i> <span>Multilevel</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-circle-o"></i> Level One
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="fa fa-circle-o"></i> Level Two
+                                    <span class="pull-right-container">
+                                        <i class="fa fa-angle-left pull-right"></i>
+                                    </span>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+                </ul>
+            </li>
+            <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
+            <li class="header">LABELS</li>
+            <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+        </ul>
+        <!-- /.sidebar-menu -->
+    </section>
+    <!-- /.sidebar -->
+</aside>

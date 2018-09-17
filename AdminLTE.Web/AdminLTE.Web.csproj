@@ -1,0 +1,159 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\site.min.js" />
+    <None Include="wwwroot\lib\bootstrap-datepicker\.github\ISSUE_TEMPLATE.md" />
+    <None Include="wwwroot\lib\bootstrap-datepicker\.github\PULL_REQUEST_TEMPLATE.md" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\ckeditor\.github\ISSUE_TEMPLATE" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\lib\jvectormap\.gitignore" />
+    <None Include="wwwroot\lib\jvectormap\build.sh" />
+    <None Include="wwwroot\lib\jvectormap\converter\converter.py" />
+    <None Include="wwwroot\lib\jvectormap\converter\processor.py" />
+    <None Include="wwwroot\lib\jvectormap\converter\simplifier.py" />
+    <None Include="wwwroot\lib\jvectormap\jquery-jvectormap.js" />
+    <None Include="wwwroot\lib\jvectormap\lib\jquery-mousewheel.js" />
+    <None Include="wwwroot\lib\jvectormap\LICENSE-AGPL" />
+    <None Include="wwwroot\lib\jvectormap\LICENSE-COMMERCIAL" />
+    <None Include="wwwroot\lib\jvectormap\README.md" />
+    <None Include="wwwroot\lib\jvectormap\src\abstract-canvas-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\abstract-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\abstract-shape-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\color-scale.js" />
+    <None Include="wwwroot\lib\jvectormap\src\data-series.js" />
+    <None Include="wwwroot\lib\jvectormap\src\jvectormap.js" />
+    <None Include="wwwroot\lib\jvectormap\src\legend.js" />
+    <None Include="wwwroot\lib\jvectormap\src\map-object.js" />
+    <None Include="wwwroot\lib\jvectormap\src\map.js" />
+    <None Include="wwwroot\lib\jvectormap\src\marker.js" />
+    <None Include="wwwroot\lib\jvectormap\src\multimap.js" />
+    <None Include="wwwroot\lib\jvectormap\src\numeric-scale.js" />
+    <None Include="wwwroot\lib\jvectormap\src\ordinal-scale.js" />
+    <None Include="wwwroot\lib\jvectormap\src\proj.js" />
+    <None Include="wwwroot\lib\jvectormap\src\region.js" />
+    <None Include="wwwroot\lib\jvectormap\src\simple-scale.js" />
+    <None Include="wwwroot\lib\jvectormap\src\svg-canvas-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\svg-circle-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\svg-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\svg-group-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\svg-image-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\svg-path-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\svg-shape-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\svg-text-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\vector-canvas.js" />
+    <None Include="wwwroot\lib\jvectormap\src\vml-canvas-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\vml-circle-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\vml-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\vml-group-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\vml-image-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\vml-path-element.js" />
+    <None Include="wwwroot\lib\jvectormap\src\vml-shape-element.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\jquery-1.8.2.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\jquery-jvectormap-data-us-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\jquery-jvectormap-map.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\jquery-jvectormap-us-aea-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\jquery-jvectormap-us-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\jquery-jvectormap-us-merc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\jquery-jvectormap-us-mill-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\jquery-jvectormap-world-mill-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ak-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-al-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ar-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-az-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ca-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-co-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ct-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-dc-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-de-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-fl-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ga-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-hi-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ia-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-id-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-il-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-in-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ks-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ky-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-la-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ma-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-md-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-me-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-mi-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-mn-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-mo-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ms-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-mt-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-nc-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-nd-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ne-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-nh-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-nj-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-nm-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-nv-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ny-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-oh-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ok-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-or-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-pa-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ri-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-sc-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-sd-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-tn-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-tx-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-ut-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-va-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-vt-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-wa-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-wi-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-wv-lcc-en.js" />
+    <None Include="wwwroot\lib\jvectormap\tests\assets\us\jquery-jvectormap-data-us-wy-lcc-en.js" />
+    <None Include="wwwroot\lib\select2\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\lib\select2\.github\ISSUE_TEMPLATE.md" />
+    <None Include="wwwroot\lib\select2\.github\PULL_REQUEST_TEMPLATE.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Shared\_LayoutTheme.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\_PartialControlSidebar.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\_PartialFooter.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\_PartialHeader.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\_PartialPageHeader.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\_PartialSidebar.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>
